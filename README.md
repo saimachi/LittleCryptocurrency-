@@ -1,4 +1,4 @@
-# LittleCryptocurrency-
+# LittleCryptocurrency
 A tiny cryptocurrency implemented in Python. 
 
 This is a work in progress--I still need to implement a system which ensures that each node in the decentralized system has the same ledger. Currently, the program allows for clients to mine a coin (block) via a HTTP GET request and send a transaction to a node via a POST request. Block hashes are generated with SHA256. The proof of work algorithm is quite basic, as indicated by the code, but I am working on implementing a stronger PoW algorithm, one that may leverage multiple cores.
