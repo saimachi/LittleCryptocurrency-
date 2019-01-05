@@ -1,7 +1,6 @@
 import hashlib as hasher
 import datetime as date
 from flask import Flask, request
-from multiprocessing import Process 
 import math, json, time
 
 class Block:
